@@ -85,15 +85,14 @@ The mai of the code can be found at [here](hhttps://github.com/NLkhuyen/Udacity_
 - The distribution of feature importances were relatively equal with BOGO and discount offers. However, for informational offers, the distribution is slightly more balanced, with income the second most important variable.
 
 ### **Question 2:**
-![Best model overall for bogo, discount and info offers](https://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project/tree/main/image/Cap1.png)
-![Best model overall for bogo, discount and info offers](https://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project/tree/main/image/Cap2.png)
+<img alt="alt_text" src="image/Cap1.png" />
+<img alt="alt_text" src="image/Cap2.png" />
 
-<img alt="alt_text" width="40px" src="image/Cap1.png" />
 - Decision to use 3 separate models to predict the effectiveness of each offer type ended up with good accuracy for the BOGO and discount models (88.71% for BOGO and 94.21% for discount), while slightly less accurate performance for informational offers (around 85.98%). So there is no cost involved to inform users of a product.
 
-![Best BOGO model feature importance](../image/Cap4.png)
-![Best discount model feature importance](../image/Cap5.png)
-![Best info model feature importance](../image/Cap3.png)
+<img alt="alt_text" src="image/Cap4.png" />
+<img alt="alt_text" src="image/Cap5.png" />
+<img alt="alt_text" src="image/Cap3.png" />
 - For BOGO and discount models, The 88% and above accuracy, as in a business setting that would be good enough to show offers to people, even if the model misclassifies a few, the overall revenue increase might justify the few mistakes.
 
 ### **Potential improvement**
