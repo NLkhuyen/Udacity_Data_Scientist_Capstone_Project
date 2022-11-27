@@ -79,21 +79,21 @@ Here is the schema and explanation of each variable in the files:
 
 The mai of the code can be found at [here](hhttps://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project).
 
-** ### Question 1:**
+### ** Question 1:**
 - The feature importance given by all 3 models were that the tenure of a member is the biggest predictor of the effectiveness of an offer.
 - The top 3 variables were the same - membership tenure, income and age. However, income and age switched orders depending on offer type, for all three models.
 - The distribution of feature importances were relatively equal with BOGO and discount offers. However, for informational offers, the distribution is slightly more balanced, with income the second most important variable.
 
-** ### Question 2:**
+### **Question 2:**
 - Decision to use 3 separate models to predict the effectiveness of each offer type ended up with good accuracy for the BOGO and discount models (88.71% for BOGO and 94.21% for discount), while slightly less accurate performance for informational offers (around 85.98%). So there is no cost involved to inform users of a product.
 - For BOGO and discount models, The 88% and above accuracy, as in a business setting that would be good enough to show offers to people, even if the model misclassifies a few, the overall revenue increase might justify the few mistakes.
 
-** ### Potential improvement**
+### **Potential improvement**
 - There should be more insight for the other cases where the customer finishes the transactions regardless of the offer. If we could get any insight into those cases, maybe we can send out more offers to those customers.
 
 - Unsupervised learning on clustering the customers based on information we are given, to see if there are any specific characteristics on a group of customers who will be more likely to respond to the offer.
 
-** ### Other Result that founded ***
+### **Other Result that founded ***
 - Male and Female almost equally complete the offer. So offers should be sent equally among them.
 - The two most completed offer of type are 'BOGO' and 'Discount'. So these two should be sent to more people.
 - People of age 50–70 of income between 60000–90000 respond most to offers type 'BOGO' and 'Discount'. So it will be good to send BOGO and Discount offers to these people
