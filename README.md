@@ -93,7 +93,7 @@ The mai of the code can be found at [here](hhttps://github.com/NLkhuyen/Udacity_
 
 - Unsupervised learning on clustering the customers based on information we are given, to see if there are any specific characteristics on a group of customers who will be more likely to respond to the offer.
 
-### **Other Result that founded ***
+### **Other Result that founded**
 - Male and Female almost equally complete the offer. So offers should be sent equally among them.
 - The two most completed offer of type are 'BOGO' and 'Discount'. So these two should be sent to more people.
 - People of age 50–70 of income between 60000–90000 respond most to offers type 'BOGO' and 'Discount'. So it will be good to send BOGO and Discount offers to these people
