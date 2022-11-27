@@ -12,7 +12,7 @@ Audacity Data Scientist Nanodegree Capstone project
 6. [Licensing, Authors, and Acknowledgements](#licensing)
 
 <a name="introduction"></a>
-## Introduction
+## 1.Introduction
 
 This data set contains simulated data that mimics customer behavior on the Starbucks rewards mobile app. Once every few days, Starbucks sends out an offer to users of the mobile app. An offer can be merely an advertisement for a drink or an actual offer such as a discount or BOGO (buy one get one free). Some users might not receive any offer during certain weeks.
 
@@ -27,12 +27,12 @@ You'll be given transactional data showing user purchases made on the app includ
 Keep in mind as well that someone using the app might make a purchase through the app without having received an offer or seen an offer.
 
 <a name="installation"></a>
-## Installation
+## 2.Installation
 
 There should be no necessary libraries to run the code here beyond the Anaconda distribution of Python.  The code should run with no issues using Python versions 3.*.
 
 <a name="motivation"></a>
-## Project Motivation
+## 3.Project Motivation
 
 We are going to answer the following two questions:
 
@@ -40,7 +40,7 @@ We are going to answer the following two questions:
 2. Could the data provided, namely offer characteristics and user demographics, predict whether a user would take up an offer?
 
 <a name="files"></a>
-## File Descriptions
+## 4.File Descriptions
 
 The notebook available here showcases work related to the above questions. 
 
@@ -75,11 +75,11 @@ Here is the schema and explanation of each variable in the files:
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 <a name="results"></a>
-## Results
+## 5.Results
 
 The mai of the code can be found at [here](hhttps://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project).
 
-### ** Question 1:**
+### **Question 1:**
 - The feature importance given by all 3 models were that the tenure of a member is the biggest predictor of the effectiveness of an offer.
 - The top 3 variables were the same - membership tenure, income and age. However, income and age switched orders depending on offer type, for all three models.
 - The distribution of feature importances were relatively equal with BOGO and discount offers. However, for informational offers, the distribution is slightly more balanced, with income the second most important variable.
@@ -99,5 +99,5 @@ The mai of the code can be found at [here](hhttps://github.com/NLkhuyen/Udacity_
 - People of age 50–70 of income between 60000–90000 respond most to offers type 'BOGO' and 'Discount'. So it will be good to send BOGO and Discount offers to these people
 
 <a name="licensing"></a>
-## Licensing, Authors, Acknowledgements
+## 6.Licensing, Authors, Acknowledgements
 Credit to Stakbucks for the data.
