@@ -89,9 +89,9 @@ The mai of the code can be found at [here](hhttps://github.com/NLkhuyen/Udacity_
 ![Best model overall for bogo, discount and info offers](https://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project/tree/main/image/Cap2.png)
 - Decision to use 3 separate models to predict the effectiveness of each offer type ended up with good accuracy for the BOGO and discount models (88.71% for BOGO and 94.21% for discount), while slightly less accurate performance for informational offers (around 85.98%). So there is no cost involved to inform users of a product.
 
-![Best BOGO model feature importance](https://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project/tree/main/image/Cap4.png)
-![Best discount model feature importance](https://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project/tree/main/image/Cap5.png)
-![Best info model feature importance](https://github.com/NLkhuyen/Udacity_Data_Scientist_Capstone_Project/tree/main/image/Cap3.png)
+![Best BOGO model feature importance](../image/Cap4.png)
+![Best discount model feature importance](../image/Cap5.png)
+![Best info model feature importance](../image/Cap3.png)
 - For BOGO and discount models, The 88% and above accuracy, as in a business setting that would be good enough to show offers to people, even if the model misclassifies a few, the overall revenue increase might justify the few mistakes.
 
 ### **Potential improvement**
